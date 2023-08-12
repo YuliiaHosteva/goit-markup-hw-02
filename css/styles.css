@@ -40,12 +40,12 @@ ul, ol {
     transition: color 0.3s;
     text-decoration: none;
 }
-.nav-link:hover {
+.navigation .nav-link:hover {
     color: #404bbf;
     text-decoration: underline;
 }
-.nav-link:focus {
-    color: #404bbf; 
+.navigation .nav-link:focus {
+    color: #404bbf;
 }
 
 .contacts-links {
@@ -114,6 +114,7 @@ text-decoration: none;
     line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
   }
   .title {
     color: var(--navyblue, #2E2F42);
