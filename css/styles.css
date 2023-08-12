@@ -37,7 +37,6 @@ ul, ol {
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.02em;
-    transition: color 0.3s;
     text-decoration: none;
 }
 
