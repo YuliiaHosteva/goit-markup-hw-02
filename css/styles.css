@@ -40,12 +40,18 @@ ul, ol {
     transition: color 0.3s;
     text-decoration: none;
 }
-.nav-link:hover {
+
+.navigation .nav-link {
+  color: #2E2F42;
+  text-decoration: none;
+}
+
+.navigation .nav-link:hover {
     color: #404bbf;
     
 }
 
-.nav-link:focus {
+.navigation .nav-link:focus {
     color: #404bbf;
 }
 
