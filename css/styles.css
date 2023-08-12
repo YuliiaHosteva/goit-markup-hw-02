@@ -42,6 +42,7 @@ ul, ol {
 }
 .nav-link:hover {
     color: #404bbf;
+    
 }
 
 .nav-link:focus {
