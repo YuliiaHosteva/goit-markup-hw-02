@@ -45,7 +45,6 @@ ul, ol {
     text-decoration: underline;
 }
 .nav-link:focus {
-    outline: none; 
     color: #404bbf; 
 }
 
@@ -63,7 +62,7 @@ text-decoration: none;
 .contacts-links .link {
     color: #434455; /* Колір посилання */
     text-decoration: none; /* Відсутність підкреслення */
-    transition: color 0.3s; /* Плавний перехід для зміни кольору */
+    
   }
   
   /* Стилі для посилання при наведенні курсора */
@@ -74,14 +73,12 @@ text-decoration: none;
   
   /* Стилі для посилання при фокусі (наприклад, клавішною Tab) */
   .contacts-links .link:focus {
-    outline: none; /* Відсутність контуру для кольорового фокусу */
     color: #404bbf; /* Новий колір при фокусі */
   }
   
   .hero-blok {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
+    
   }
   .hero-title {
     color: #FFF;
@@ -92,6 +89,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
   }
   .order-service {
+    font-family: "Roboto", sans-serif;
     color: var(--white, #FFF);
     font-size: 16px;
     font-weight: 500;
@@ -109,7 +107,7 @@ text-decoration: none;
     background-color: #404BBF;
     outline: none;
   }
-   h2 {
+   .subject {
     color: var(--navyblue, #2E2F42);
     font-size: 36px;
     font-weight: 700;
@@ -137,18 +135,8 @@ text-decoration: none;
 
     }
 
-    .team-title {
-        color: var(--navyblue, #2E2F42);
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11em;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        text-align: center; 
-    }
-
-    .img-team {
-        background-color: #FFFFFF;
+    .team-list {
+    background-color: #FFFFFF;
   }
 
   .img-card {
@@ -168,8 +156,7 @@ text-decoration: none;
     
     .footer-aside {
         background-color: var(--navyblue, #2E2F42);
-        width: 1440px;
-        height: 312px;
+
     }
     .text-footer {
     color: var(--cloud, #F4F4FD);
