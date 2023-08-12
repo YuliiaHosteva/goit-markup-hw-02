@@ -1,26 +1,26 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 .link-logo {
-color: var(--navyblue, #2E2F42);
-font-family: Raleway;
+color: var(--iris, #4D5AE5);
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16em;
+line-height: 1.17em;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 }
 
 
-.logo-web {
-color: var(--iris, #4D5AE5);
-font-family: Raleway;
+.logo-studio {
+color: var(--navyblue, #2E2F42);
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16em;
+line-height: 1.17em;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
@@ -31,73 +31,26 @@ ul, ol {
 	list-style-type: none;
 }
 
-.navigation .navigation-studio {
+.nav-link {
     color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
     transition: color 0.3s;
     text-decoration: none;
 }
-.navigation .navigation-studio:hover {
-    color: #4D5AE5;
+.nav-link:hover {
+    color: #404bbf;
     text-decoration: underline;
 }
-.navigation .navigation-studio:focus {
+.nav-link:focus {
     outline: none; 
-    color: #4D5AE5; 
+    color: #404bbf; 
 }
 
-.navigation .navigation-portfolio {
-    color: #2E2F42;
-    transition: color 0.3s;
-    text-decoration: none;
-}
-.navigation .navigation-portfolio:hover {
-    color: #4D5AE5;
-    text-decoration: underline;
-}
-
-.navigation .navigation-portfolio:focus {
-    outline: none; 
-    color: #4D5AE5; 
-}
-.navigation .navigation-contacts {
-    color: #2E2F42;
-    transition: color 0.3s;
-    text-decoration: none;
-}
-.navigation .navigation-contacts:hover {
-    color: #4D5AE5;
-    text-decoration: underline;
-}
-.navigation .navigation-c.navigation-contacts {
-    outline: none; 
-    color: #4D5AE5; 
-}
-
-.navigation-studio {
-color: var(--navyblue, #2E2F42);
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5em;
-letter-spacing: 0.02em;
-text-decoration: none;
-}
-
-.navigation-portfolio {
-color: var(--navyblue, #2E2F42);
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5em;
-letter-spacing: 0.02em;
-text-decoration: none;
-}
-
-.navigation-contacts {
-color: var(--navyblue, #2E2F42);
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5em;
-letter-spacing: 0.02em;
-text-decoration: none;
+.contacts-links {
+    font-style: normal
 }
 
 .link {
@@ -115,21 +68,23 @@ text-decoration: none;
   
   /* Стилі для посилання при наведенні курсора */
   .contacts-links .link:hover {
-    color: #4D5AE5; /* Новий колір при наведенні */
-    
+    color: #404bbf; /* Новий колір при наведенні */
+
   }
   
   /* Стилі для посилання при фокусі (наприклад, клавішною Tab) */
   .contacts-links .link:focus {
     outline: none; /* Відсутність контуру для кольорового фокусу */
-    color: #4D5AE5; /* Новий колір при фокусі */
+    color: #404bbf; /* Новий колір при фокусі */
   }
   
-  .hero-title {
-    color: #FFF;
-    background: var(--navyblue, #2E2F42);
+  .hero-blok {
+    background: #2e2f42;
     width: 1440px;
     height: 600px;
+  }
+  .hero-title {
+    color: #FFF;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -142,9 +97,7 @@ text-decoration: none;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.04em;
-    border-radius: 4px;
     background: var(--iris, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     
   }
@@ -156,7 +109,7 @@ text-decoration: none;
     background-color: #404BBF;
     outline: none;
   }
-  h2 {
+   h2 {
     color: var(--navyblue, #2E2F42);
     font-size: 36px;
     font-weight: 700;
@@ -164,31 +117,47 @@ text-decoration: none;
     letter-spacing: 0.02em;
     text-transform: capitalize;
   }
-  h3 {
+  .title {
     color: var(--navyblue, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.02em;
+    text-align: center;
   }
 
-  p {
+  .text {
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.02em;
     }
 
+    .our-team {
+    background-color: #F4F4FD;
+
+    }
+
+    .team-title {
+        color: var(--navyblue, #2E2F42);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11em;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center; 
+    }
+
     .img-team {
-    background: var(--white, #FFF);
+        background-color: #FFFFFF;
   }
 
   .img-card {
     background: var(--white, #FFF);
   }
 
-    .link-logo-footer {
+  .logo-studio-footer     {
     color: var(--cloud, #F4F4FD);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16em;
@@ -197,7 +166,7 @@ text-decoration: none;
     text-decoration: none;
     }  
     
-    footer {
+    .footer-aside {
         background-color: var(--navyblue, #2E2F42);
         width: 1440px;
         height: 312px;
