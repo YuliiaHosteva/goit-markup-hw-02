@@ -1,0 +1,210 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.link-logo {
+color: var(--navyblue, #2E2F42);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16em;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+
+.logo-web {
+color: var(--iris, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16em;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+.navigation .navigation-studio {
+    color: #2E2F42;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.navigation .navigation-studio:hover {
+    color: #4D5AE5;
+    text-decoration: underline;
+}
+.navigation .navigation-studio:focus {
+    outline: none; 
+    color: #4D5AE5; 
+}
+
+.navigation .navigation-portfolio {
+    color: #2E2F42;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.navigation .navigation-portfolio:hover {
+    color: #4D5AE5;
+    text-decoration: underline;
+}
+
+.navigation .navigation-portfolio:focus {
+    outline: none; 
+    color: #4D5AE5; 
+}
+.navigation .navigation-contacts {
+    color: #2E2F42;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.navigation .navigation-contacts:hover {
+    color: #4D5AE5;
+    text-decoration: underline;
+}
+.navigation .navigation-c.navigation-contacts {
+    outline: none; 
+    color: #4D5AE5; 
+}
+
+.navigation-studio {
+color: var(--navyblue, #2E2F42);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.navigation-portfolio {
+color: var(--navyblue, #2E2F42);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.navigation-contacts {
+color: var(--navyblue, #2E2F42);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.link {
+color: #434455;
+font-size: 16px;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.contacts-links .link {
+    color: #434455; /* Колір посилання */
+    text-decoration: none; /* Відсутність підкреслення */
+    transition: color 0.3s; /* Плавний перехід для зміни кольору */
+  }
+  
+  /* Стилі для посилання при наведенні курсора */
+  .contacts-links .link:hover {
+    color: #4D5AE5; /* Новий колір при наведенні */
+    
+  }
+  
+  /* Стилі для посилання при фокусі (наприклад, клавішною Tab) */
+  .contacts-links .link:focus {
+    outline: none; /* Відсутність контуру для кольорового фокусу */
+    color: #4D5AE5; /* Новий колір при фокусі */
+  }
+  
+  .hero-title {
+    color: #FFF;
+    background: var(--navyblue, #2E2F42);
+    width: 1440px;
+    height: 600px;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07em;
+    letter-spacing: 0.02em;
+  }
+  .order-service {
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    
+  }
+  .order-service:hover {
+    background-color: #404BBF;
+    text-decoration: none;
+  }
+  .order-service:focus {
+    background-color: #404BBF;
+    outline: none;
+  }
+  h2 {
+    color: var(--navyblue, #2E2F42);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  h3 {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    }
+
+    .img-team {
+    background: var(--white, #FFF);
+  }
+
+  .img-card {
+    background: var(--white, #FFF);
+  }
+
+    .link-logo-footer {
+    color: var(--cloud, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    }  
+    
+    footer {
+        background-color: var(--navyblue, #2E2F42);
+        width: 1440px;
+        height: 312px;
+    }
+    .text-footer {
+    color: var(--cloud, #F4F4FD);
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    }
